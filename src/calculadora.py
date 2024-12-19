@@ -1,5 +1,7 @@
-def resultado(primeiro, segunda):
-    print(primeiro + segunda)
+import sys
 
+def resultado(primeiro, segunda, terceiro):
+    print(primeiro + segunda + terceiro)
+    
 
-resultado(7, 8)
+resultado(int(sys.argv[1]), int(sys.argv[2]),int(sys.argv[3]))
